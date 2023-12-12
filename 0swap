@@ -1,5 +1,5 @@
 def change(list):
-    if  0 not in y:
+    if  0 not in list:
         print(list)
     
     else:
