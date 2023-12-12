@@ -1,0 +1,13 @@
+def change(list):
+    if  0 not in y:
+        print(list)
+    
+    else:
+        cnt = 0
+        for i in range(len(list)):
+            if list[i] == 0:
+                cnt +=1
+                print(list,i)
+            else:
+                list[i],list[i-cnt] = list[i-cnt],list[i]
+                print(list,i)
